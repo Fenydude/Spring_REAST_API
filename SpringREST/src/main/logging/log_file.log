@@ -1,0 +1,719 @@
+2021-02-15 15:07:51 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-15 15:07:51 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-15 15:07:51 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-15 15:07:52 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-15 15:07:52 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf19y134odtxekw|6eef90f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf19y134odtxekw|6eef90f, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-15 15:07:52 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-15 15:07:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-15 15:08:10 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 15:09:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 15:54:34 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-15 15:54:34 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-15 15:54:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-15 15:54:35 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-15 15:54:35 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf19zp5we17qrmvx|76f63bf9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf19zp5we17qrmvx|76f63bf9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-15 15:54:36 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-15 15:54:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-15 15:55:42 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 15:56:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 16:55:26 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-15 16:55:26 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-15 16:55:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-15 16:55:27 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-15 16:55:27 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1a1vfie1g9nssh|589b25cb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1a1vfie1g9nssh|589b25cb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-15 16:55:27 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-15 16:55:29 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-15 16:56:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:30:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:30:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:31:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:31:55 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:31:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:32:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:32:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:32:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:32:03 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:55 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:36:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:37:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:37:39 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:37:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:38:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:38:32 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:38:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:48:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:48:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:49:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:49:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:49:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:51:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:53:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:54:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:54:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:56:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:56:32 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:56:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:58:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 17:58:49 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 17:58:53 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:00:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:00:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:00:17 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:00:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:02:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:02:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:02:29 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:02:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:02:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:17:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:17:49 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:18:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:18:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:19:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:19:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:19:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:20:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:20:00 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-02-15 18:20:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:43:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:43:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:43:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:43:30 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-02-15 18:43:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:43:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:43:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:43:40 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-02-15 18:43:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:46:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:48:18 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:52:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:53:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:53:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:54:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:54:27 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:54:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:54:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:54:36 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:54:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:56:34 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:56:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:56:41 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:56:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:56:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:56:45 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:56:45 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 18:56:47 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 18:56:50 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-15 18:56:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 19:40:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-15 20:15:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 20:15:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 20:16:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 20:16:28 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-02-15 20:16:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-15 20:16:35 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-02-15 20:16:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-19 16:04:37 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-19 16:04:37 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-19 16:04:37 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-19 16:04:38 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-19 16:04:39 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge16uaf1fpthu01fwjvqw|1a75bc8a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge16uaf1fpthu01fwjvqw|1a75bc8a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-19 16:04:40 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-19 16:04:42 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 12:02:04 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-22 12:02:04 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-22 12:02:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-22 12:02:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 12:02:05 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1jrh4nirjczke|6c1933ee, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1jrh4nirjczke|6c1933ee, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-22 12:02:05 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-22 12:02:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 12:02:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-22 12:02:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-22 12:07:19 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-22 12:07:19 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-22 12:07:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-22 12:07:20 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 12:07:20 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1jrnvv6iw9bv5|390db538, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1jrnvv6iw9bv5|390db538, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-22 12:07:20 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-22 12:07:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 12:08:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-22 12:10:05 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-22 12:10:05 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-22 12:10:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-22 12:10:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 12:10:06 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1jrrfjx1kgh7gk|28aa263e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1jrrfjx1kgh7gk|28aa263e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-22 12:10:06 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-22 12:10:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 12:10:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-22 12:19:33 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-22 12:19:33 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-22 12:19:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-22 12:19:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 12:19:34 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1js3m491d09ih1|4fbf7bc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1js3m491d09ih1|4fbf7bc, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-22 12:19:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-22 12:19:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 12:20:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-22 12:23:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-23 23:39:41 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-23 23:39:42 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-23 23:39:42 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-23 23:39:42 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-23 23:39:43 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1lvu4t11s5sahl|1b382ba1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1lvu4t11s5sahl|1b382ba1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-23 23:39:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-23 23:39:45 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 23:40:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-23 23:40:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-23 23:41:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-23 23:47:32 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-23 23:47:33 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-23 23:47:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-23 23:47:33 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-23 23:47:33 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1lw487w1d2g8u1|4f8d9190, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1lw487w1d2g8u1|4f8d9190, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-23 23:47:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-23 23:47:35 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-23 23:47:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 00:09:52 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 00:09:52 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 00:09:52 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 00:09:52 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 00:09:53 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1lwwxhg1sjps8q|797f6676, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1lwwxhg1sjps8q|797f6676, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 00:09:53 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 00:09:54 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 00:10:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 00:12:38 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 00:12:38 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 00:12:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 00:12:39 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 00:12:39 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1lx0hvp186dh7r|66bc9136, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1lx0hvp186dh7r|66bc9136, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 00:12:39 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 00:12:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 00:12:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 00:12:49 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 00:16:20 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 00:16:20 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 00:16:20 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 00:16:21 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 00:16:21 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1lx591fk1mukt|68043a40, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1lx591fk1mukt|68043a40, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 00:16:21 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 00:16:23 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 00:16:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 12:28:05 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 12:28:05 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 12:28:06 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 12:28:06 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 12:28:06 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1mnaaf817j4bdk|41778cb0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1mnaaf817j4bdk|41778cb0, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 12:28:07 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 12:28:09 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 12:28:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 12:28:23 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 12:28:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 13:27:44 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 13:27:45 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 13:27:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 13:27:45 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 13:27:46 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1mpf0gg1ez48wv|60d3f59a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1mpf0gg1ez48wv|60d3f59a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 13:27:46 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 13:27:47 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 13:27:54 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 13:32:28 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 13:32:28 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 13:32:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 13:32:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 13:32:29 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1mpl3i5x5f4x5|4b175f14, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1mpl3i5x5f4x5|4b175f14, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 13:32:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 13:32:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 13:32:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 13:33:39 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 13:33:39 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 13:33:39 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 13:33:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 13:33:40 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1mpmlu37i4zpy|1b964b06, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1mpmlu37i4zpy|1b964b06, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 13:33:40 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 13:33:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 13:33:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 13:33:54 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 21:01:36 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-24 21:01:36 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-24 21:01:37 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-24 21:01:37 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-24 21:01:38 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1n5mol3ajlpt2|660705c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1n5mol3ajlpt2|660705c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-24 21:01:38 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-24 21:01:40 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-24 21:10:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-24 21:10:10 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-24 21:10:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 15:54:06 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-25 15:54:06 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-25 15:54:06 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-25 15:54:07 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 15:54:07 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1oa32rzwnuqyz|6f2ed78a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1oa32rzwnuqyz|6f2ed78a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-25 15:54:08 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-25 15:54:10 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 15:54:42 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-25 15:54:51 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 15:54:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 15:55:18 INFO  EmployeeLoggingAspect:24 - Successfully execute saveDepartment
+2021-02-25 15:55:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 15:58:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:00:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-25 16:00:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:01:38 INFO  EmployeeLoggingAspect:24 - Successfully execute saveDepartment
+2021-02-25 16:01:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:01:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:01:47 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:01:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:02:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:03:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:03:42 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:03:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:03:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:04:33 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-25 16:04:33 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-25 16:04:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-25 16:04:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 16:04:34 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1oagimsxknbys|73af7a40, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1oagimsxknbys|73af7a40, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-25 16:04:35 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-25 16:04:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 16:04:54 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-25 16:04:54 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-25 16:04:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-25 16:04:55 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 16:04:55 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1oagyoh1uy94b8|279b5cdf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1oagyoh1uy94b8|279b5cdf, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-25 16:04:55 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-25 16:04:57 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 16:05:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:05:06 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:05:10 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:05:41 INFO  EmployeeLoggingAspect:24 - Successfully execute saveDepartment
+2021-02-25 16:05:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:05:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:05:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:05:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-25 16:08:39 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-25 16:08:39 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-25 16:08:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-25 16:08:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 16:08:41 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1oalsrl13uch4o|5b0363cf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1oalsrl13uch4o|5b0363cf, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-25 16:08:41 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-25 16:08:43 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 16:09:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:09:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:09:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:13:57 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:22:03 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-25 16:22:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:22:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:23:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:25:37 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-25 16:25:37 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-25 16:25:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-25 16:25:38 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-25 16:25:39 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1ob7m3t1bh656z|753bfb50, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1ob7m3t1bh656z|753bfb50, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-25 16:25:39 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-25 16:25:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-25 16:28:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:28:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:29:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-25 16:29:10 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:29:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-25 16:31:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-25 16:31:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 10:37:23 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 10:37:23 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 10:37:24 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 10:37:24 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 10:37:25 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pe7n1t1mijj5w|5ac4f4cb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pe7n1t1mijj5w|5ac4f4cb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 10:37:26 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 10:37:28 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 10:52:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-26 10:52:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 10:52:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 10:54:27 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 10:54:27 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 10:54:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 10:54:28 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 10:54:28 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1petkw213aag87|7c94117e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1petkw213aag87|7c94117e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 10:54:28 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 10:54:30 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 10:55:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 10:55:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 10:59:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 10:59:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:00:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-26 11:00:53 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:00:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:03:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:03:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:14:14 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:14:14 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:14:15 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:14:15 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:14:15 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pfj14e1g4is11|5cd57109, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pfj14e1g4is11|5cd57109, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:14:16 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:14:17 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:15:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:15:03 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:15:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:16:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-26 11:16:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:16:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:16:34 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:16:34 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:16:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:16:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:16:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:18:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:18:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:18:06 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:19:30 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:19:30 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:19:30 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:19:31 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:19:31 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pfpsm42flwns|5cef7b51, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pfpsm42flwns|5cef7b51, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:19:31 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:19:32 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:19:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:19:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:19:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:21:04 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:21:04 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:21:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:21:05 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:21:05 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pfrszunxo2a1|1b62fee9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pfrszunxo2a1|1b62fee9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:21:06 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:21:07 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:21:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:21:23 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:21:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:22:11 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:22:11 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:22:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:22:12 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:22:12 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pft8s411qwqiv|2668256a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pft8s411qwqiv|2668256a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:22:13 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:22:14 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:22:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:22:34 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:22:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:23:32 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:23:32 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:23:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:23:33 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:23:33 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kfltaf1pfuzm2101ogo3|578a4bf9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kfltaf1pfuzm2101ogo3|578a4bf9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:23:34 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:23:35 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:24:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:24:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:24:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:27:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:27:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:27:34 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:31:34 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:31:34 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:31:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:31:35 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:31:35 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1pg5b2h8d397y|3ce229ae, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1pg5b2h8d397y|3ce229ae, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:31:36 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:31:37 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:31:58 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:32:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:32:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:32:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:36:02 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:36:02 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:36:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:36:03 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:36:03 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1pgb26jtsdgpl|6ec769cc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1pgb26jtsdgpl|6ec769cc, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:36:04 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:36:05 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:36:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:36:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:36:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:36:47 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:42:33 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:42:33 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:42:33 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:42:34 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:42:34 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1pgjfo2vomqek|c953927, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1pgjfo2vomqek|c953927, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:42:35 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:42:36 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:42:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-26 11:42:53 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:42:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:42:58 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:43:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:44:59 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:44:59 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:44:59 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:44:59 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:45:00 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1pgmk7ph3rsqm|319d5fb8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1pgmk7ph3rsqm|319d5fb8, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:45:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:45:01 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:45:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:45:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:45:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:45:32 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:48:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:49:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:49:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:49:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:53:38 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:53:38 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:53:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:53:39 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:53:39 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1pgxow6w0dwav|380cf3d8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1pgxow6w0dwav|380cf3d8, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:53:39 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:53:41 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:53:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:53:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:53:54 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:53:55 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:57:11 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 11:57:11 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 11:57:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 11:57:11 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 11:57:12 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge9h0af1ph291a1i9zu5m|40977b5c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge9h0af1ph291a1i9zu5m|40977b5c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 11:57:12 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 11:57:13 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 11:57:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:57:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:57:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:57:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 11:57:32 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-26 11:57:32 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllEmployees
+2021-02-26 11:57:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:57:42 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 11:57:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 11:59:57 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 11:59:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:00:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:00:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:00:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:00:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:00:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:00:18 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:01:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:01:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:01:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:01:49 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:01:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:02:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:02:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:03:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:03:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:03:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:03:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:03:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:03:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:03:18 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:09:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:09:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:09:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:09:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:30:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:30:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:30:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:30:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:38:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:38:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:38:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:38:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:40:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:40:36 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:40:39 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:40:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:44:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:44:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:44:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:44:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:45:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:45:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:45:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:45:54 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:45:57 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-26 12:45:57 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:45:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:46:01 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:47:48 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 12:47:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 12:47:51 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 12:47:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 12:47:57 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-26 12:47:57 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 22001
+2021-02-26 12:47:57 ERROR SqlExceptionHelper:142 - ОШИБКА: значение не умещается в тип character varying(10)
+2021-02-26 23:57:12 INFO  MLog:124 - MLog clients using log4j logging.
+2021-02-26 23:57:12 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-02-26 23:57:12 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 23:57:13 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 23:57:13 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1q6s7bb1rv6rg2|2256052f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1q6s7bb1rv6rg2|2256052f, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-02-26 23:57:13 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-26 23:57:15 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 23:59:38 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-26 23:59:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-26 23:59:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-26 23:59:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-26 23:59:49 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-26 23:59:49 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-02-26 23:59:49 ERROR SqlExceptionHelper:142 - ОШИБКА: INSERT или UPDATE в таблице "employees" нарушает ограничение внешнего ключа "employees_department_id_fkey"
+  Подробности: Ключ (department_id)=(1) отсутствует в таблице "departments".
+2021-02-27 00:01:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:01:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:01:06 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:01:08 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 00:01:12 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-02-27 00:01:12 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23503
+2021-02-27 00:01:12 ERROR SqlExceptionHelper:142 - ОШИБКА: INSERT или UPDATE в таблице "employees" нарушает ограничение внешнего ключа "employees_department_id_fkey"
+  Подробности: Ключ (department_id)=(1) отсутствует в таблице "departments".
+2021-02-27 00:03:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:03:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:03:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:03:23 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 00:07:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:07:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:07:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:07:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 00:08:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:08:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:08:45 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:08:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 00:12:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:12:45 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:12:51 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:12:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 00:15:14 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 00:15:16 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 00:15:18 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 00:15:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 14:29:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 14:29:59 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 14:30:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 14:30:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 15:19:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 15:19:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 15:19:55 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 15:19:56 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 15:23:41 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 15:23:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 15:23:46 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 15:23:47 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 15:24:44 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 15:24:52 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 15:24:54 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 15:24:55 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 15:25:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 15:25:37 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 15:25:39 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 15:25:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-27 15:27:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-27 15:27:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-27 15:27:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-27 15:27:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-28 01:18:08 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-02-28 01:18:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-02-28 01:18:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-02-28 01:18:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-02-28 23:33:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 12:39:29 INFO  MLog:124 - MLog clients using log4j logging.
+2021-03-01 12:39:29 INFO  C3P0Registry:248 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2021-03-01 12:39:30 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-01 12:39:30 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 12:39:30 INFO  AbstractPoolBackedDataSource:527 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgeknbaf1tsw7np1kvzpti|304c581d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgeknbaf1tsw7np1kvzpti|304c581d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5432/my_db, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2021-03-01 12:39:31 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-03-01 12:39:32 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 15:40:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 15:40:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:40:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 15:40:14 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:41:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 15:41:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:41:30 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 15:41:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:42:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 15:42:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:42:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 15:42:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:43:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:57:23 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 15:57:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:57:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 15:57:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:58:05 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 15:58:06 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:58:08 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 15:58:09 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 15:58:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 15:58:13 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-03-01 15:58:13 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 22001
+2021-03-01 15:58:13 ERROR SqlExceptionHelper:142 - ОШИБКА: значение не умещается в тип character varying(10)
+2021-03-01 16:00:00 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:00:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:03 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:00:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:00:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:07 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-03-01 16:00:07 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:00:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:00:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:00:17 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:17 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-03-01 16:00:17 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:00:19 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:24 INFO  EmployeeLoggingAspect:24 - Successfully execute saveDepartment
+2021-03-01 16:00:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:00:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:00:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:06:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:06:31 INFO  EmployeeLoggingAspect:24 - Successfully execute saveDepartment
+2021-03-01 16:06:31 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:06:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:06:35 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:17:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:17:13 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:17:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:18:18 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:18:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:18:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:18:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:18:40 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-03-01 16:18:40 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:18:42 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:18:43 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:18:50 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:18:57 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:18:58 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:19:03 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:19:04 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:19:08 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:19:10 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:20:02 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:20:11 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:22:12 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:22:14 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:22:15 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:22:17 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:22:23 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:22:24 INFO  EmployeeLoggingAspect:24 - Successfully execute saveEmployee
+2021-03-01 16:22:24 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:22:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:22:27 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:22:33 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:24:17 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:24:20 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:24:21 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment
+2021-03-01 16:24:22 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:24:25 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployee
+2021-03-01 16:24:26 INFO  EmployeeLoggingAspect:24 - Successfully execute deleteEmployee
+2021-03-01 16:24:26 INFO  EmployeeLoggingAspect:24 - Successfully execute getAllDepartment
+2021-03-01 16:24:28 INFO  EmployeeLoggingAspect:24 - Successfully execute getDepartment
+2021-03-01 16:24:29 INFO  EmployeeLoggingAspect:24 - Successfully execute getEmployeesFromDepartment

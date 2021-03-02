@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Info Department</title>
+</head>
+<body>
+<form method="post" action="/showDepartments">
+    <input type="hidden" id="id" th:field ="*{department.id}">
+    <div><label for="name">Name </label>
+        <input id="name" th:field = "*{department.name}">
+    </div>
+    <div><label for="surname">Department </label>
+        <input id="surname" th:field = "*{department.department}">
+    </div>
+    <div><label for="surname">Address </label>
+        <input id="address" th:field = "*{department.departmentDetail.address}">
+    </div>
+    <div><label for="surname">Phone Number </label>
+        <input id="phoneNumber" th:field = "*{department.departmentDetail.phoneNumber}">
+    </div>
+    <input type="submit" value="Save">
+</form>
+
+<br>
+
+<a th:href="'/showDepartments/' + ${department.getId()} + '/showEmployees'">List of Employee</a>
+
+<form method="post" th:action="${'/showDepartments/' + department.id}">
+    <input type="submit" value="Delete">
+</form>
+
+</body>
+</html>

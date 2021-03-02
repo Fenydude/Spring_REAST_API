@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Departments</title>
+</head>
+<body>
+<tr th:each="department: ${departments}">
+    <td th:text="${department.name}"></td>
+    <td th:text="${department.department}" ></td>
+    <td><a th:href="${'/showDepartments/' + department.getId()}">Info</a></td>
+    <br>
+</tr>
+<br>
+<a th:href="'/showDepartments/addDepartment'">Add new Department</a>
+</body>
+</html>

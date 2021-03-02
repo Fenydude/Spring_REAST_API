@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+</head>
+<body>
+<form method="post" th:action="'/showDepartments/' + ${depId} + '/showEmployees'">
+    <input type="hidden" id="id" th:field="*{emp.id}">
+    <div><label for="name">Name </label>
+        <input id="name" th:field="*{emp.name}">
+    </div>
+    <div><label for="surname">Surname </label>
+        <input id="surname" th:field="*{emp.surname}">
+    </div>
+    <div><label for="salary">Salary </label>
+        <input id="salary" th:field="*{emp.salary}">
+    </div>
+    <div><label for="city">City </label>
+        <input id="city" th:field="*{emp.employeeDetail.city}">
+    </div>
+    <div><label for="phone">Phone Number </label>
+        <input id="phone" th:field="*{emp.employeeDetail.phoneNumber}">
+    </div>
+    <div><label for="email">Email </label>
+        <input id="email" th:field="*{emp.employeeDetail.email}">
+    </div>
+    <input type="submit" value="Edit">
+
+</form>
+
+<br>
+
+<form method="post" th:action="${'/showDepartments/' + depId +  '/showEmployee/delete/' + emp.id}">
+    <input type="submit" value="Delete">
+</form>
+
+</body>
+</html>

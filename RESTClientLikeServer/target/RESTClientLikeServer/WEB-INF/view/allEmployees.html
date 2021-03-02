@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All Employees</title>
+</head>
+<body>
+<tbody>
+<tr th:each="employee: ${emps}">
+    <td th:text="${employee.name}"></td>
+    <td th:text="${employee.surname}" ></td>
+    <td th:text="${employee.department}"></td>
+    <td th:text="${employee.salary}" ></td>
+    <td><a th:href="${'/showEmployee/' + employee.getId()}">Info</a></td>
+    <br>
+</tr>
+<a th:href="'/showEmployee/addEmployee'">Add new Employee</a>
+</tbody>
+</body>
+</html>
