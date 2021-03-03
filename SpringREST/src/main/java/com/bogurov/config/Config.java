@@ -2,10 +2,8 @@ package com.bogurov.config;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.*;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -17,11 +15,18 @@ import java.beans.PropertyVetoException;
 import java.util.Properties;
 
 @Configuration
+@PropertySource(value= {"classpath:application.properties"})
 @ComponentScan(basePackages = "com.bogurov")
 @EnableWebMvc
 @EnableTransactionManagement
 @EnableAspectJAutoProxy
 public class Config {
+
+    @Autowired
+    private DataSourseSettings dataSourseSettings;
+    @Autowired
+    private SessionFactorySettings sessionFactorySettings;
+
 
     @Bean
     public Module datatypeHibernateModule() {
@@ -32,10 +37,10 @@ public class Config {
     public DataSource dataSource(){
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         try {
-            dataSource.setDriverClass("org.postgresql.Driver");
-            dataSource.setJdbcUrl("jdbc:postgresql://localhost:5432/my_db");
-            dataSource.setUser("postgres");
-            dataSource.setPassword("0311");
+            dataSource.setDriverClass(dataSourseSettings.getDriverClass());
+            dataSource.setJdbcUrl(dataSourseSettings.getUrl());
+            dataSource.setUser(dataSourseSettings.getUsername());
+            dataSource.setPassword(dataSourseSettings.getPassword());
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }
@@ -46,13 +51,13 @@ public class Config {
     public LocalSessionFactoryBean sessionFactoryBean(){
         LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource());
-        sessionFactoryBean.setPackagesToScan("com.bogurov.entity");
+        sessionFactoryBean.setPackagesToScan(sessionFactorySettings.getPackagesToScan());
 
         Properties hibernateProperties = new Properties();
-        hibernateProperties.setProperty("hibernate.dialect",
-                "org.hibernate.dialect.PostgreSQL9Dialect");
-        hibernateProperties.setProperty("hibernate.show_sql",
-                "true");
+        hibernateProperties.setProperty(sessionFactorySettings.getDialect(),
+                sessionFactorySettings.getDialectProperty());
+        hibernateProperties.setProperty(sessionFactorySettings.getShowSQL(),
+                sessionFactorySettings.getShowSQLProperty());
 
         sessionFactoryBean.setHibernateProperties(hibernateProperties);
         return sessionFactoryBean;
@@ -68,3 +73,4 @@ public class Config {
         return transactionManager;
     }
 }
+

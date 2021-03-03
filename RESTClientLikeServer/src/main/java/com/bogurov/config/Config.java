@@ -1,31 +1,37 @@
 package com.bogurov.config;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.context.annotation.*;
 import org.springframework.context.support.ResourceBundleMessageSource;
-import org.springframework.format.FormatterRegistry;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 
 @Configuration
+@PropertySource(value= {"classpath:application.properties"})
 @ComponentScan(basePackages = "com.bogurov")
 @EnableWebMvc
 @EnableAspectJAutoProxy
 public class Config
         extends WebMvcConfigurerAdapter implements ApplicationContextAware {
+
+    @Autowired
+    private ResourceHandlerSetting resourceHandlerSetting;
+
+    @Autowired
+    private TemplateResolverSetting templateResolverSetting;
+
+    @Autowired
+    private MessageSourceSetting messageSourceSetting;
+
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();
@@ -49,15 +55,20 @@ public class Config
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
         super.addResourceHandlers(registry);
-        registry.addResourceHandler("/images/**").addResourceLocations("/images/");
-        registry.addResourceHandler("/css/**").addResourceLocations("/css/");
-        registry.addResourceHandler("/js/**").addResourceLocations("/js/");
+        try {
+            for (int i = 0; i <= resourceHandlerSetting.getListsSize(); i++) {
+                registry.addResourceHandler(resourceHandlerSetting.getResourceHandlerPathPatternList().get(i))
+                        .addResourceLocations(resourceHandlerSetting.getResourceLocationList().get(i));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Bean
     public ResourceBundleMessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-        messageSource.setBasename("Messages");
+        messageSource.setBasename(messageSourceSetting.getBasename());
         return messageSource;
     }
 
@@ -74,11 +85,11 @@ public class Config
         // resource resolution infrastructure, which is highly recommended.
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(this.applicationContext);
-        templateResolver.setPrefix("/WEB-INF/view/");
+        templateResolver.setPrefix(templateResolverSetting.getPrefix());
         // Code for use environment variable
         // templateResolver.setPrefix(System.getenv("Secondpath"));
         // templateResolver.setPrefix(System.getenv("Firstpath"));
-        templateResolver.setSuffix(".html");
+        templateResolver.setSuffix(templateResolverSetting.getSuffix());
         // HTML is the default value, added here for the sake of clarity.
         templateResolver.setTemplateMode(TemplateMode.HTML);
         // Template cache is true by default. Set to false if you want
